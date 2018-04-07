@@ -14,7 +14,7 @@ public class MickeyMouse {
 		//create legs
 		
 		//create body
-		g.fillOval(125, 200, 100, 200);
+		g.fillOval(100, 200, 150, 200);
 		
 		
 		//create ears
@@ -22,15 +22,28 @@ public class MickeyMouse {
 		g.fillOval(200, 70, 90, 90);
 		
 		//create head
-		g.fillOval(105, 110, 130, 130);
+		g.fillOval(110, 110, 120, 130);
 		g.fillOval(110, 175, 120, 70);
 		
 		//create the face
 		Color skin = new Color(255,234,199);
 		g.setColor(skin);
-		g.fillOval(125, 120, 60, 80);
-		g.fillOval(155, 120, 60, 80);
+		g.fillOval(120, 130, 60, 100);
+		g.fillOval(160, 130, 60, 100);
 		g.fillOval(115, 180, 110, 60);
+		
+		//create create eyes
+		g.setColor(Color.BLACK);
+		g.fillOval(139, 142, 19, 40);
+		g.fillOval(175, 142, 19, 40);
+		
+		g.setColor(Color.WHITE);
+		g.fillOval(141, 148, 14, 34);
+		g.fillOval(177, 148, 14, 34);
+		
+		g.setColor(Color.BLACK);
+		g.fillOval(144, 157, 14, 14);
+		g.fillOval(175, 157, 14, 14);
 		
 		//create mouth
 		g.setColor(skin);
@@ -46,52 +59,32 @@ public class MickeyMouse {
 		g.setColor(skin);
 		g.fillOval(136, 175, 68, 55);
 		
-		//create create eyes
-		g.setColor(Color.BLACK);
-		g.fillOval(151, 146, 15, 40);
-		g.fillOval(173, 146, 15, 40);
-				
-		g.setColor(Color.WHITE);
-		g.fillOval(152, 152, 12, 34);
-		g.fillOval(175, 152, 12, 34);
-				
-		g.setColor(Color.BLACK);
-		g.fillOval(152, 161, 10, 24);
-		g.fillOval(174, 161, 10, 24);
-
-		//nose line
-		g.setColor(Color.BLACK);
-		g.fillOval(150, 182, 40, 30);
-		
-		g.setColor(skin);
-		g.fillOval(148, 184, 44, 28);
-		
 		//create nose
 		g.setColor(Color.BLACK);
-		g.fillOval(155, 186, 30, 25);
+		g.fillOval(145, 182, 45, 25);
 		
 		g.setColor(Color.WHITE);
-		g.fillOval(160, 190, 15, 10);
+		g.fillOval(150, 186, 15, 10);
 		
 		g.setColor(Color.BLACK);
-		g.fillOval(162, 192, 20, 10);
+		g.fillOval(152, 188, 25, 10);
 		
 		//pants
 		g.setColor(Color.RED);
-		g.fillRect(125, 300, 100, 150);
+		g.fillRect(100, 300, 150, 150);
 		
 		//buttons
 		g.setColor(Color.BLACK);
-		g.drawOval(135, 308, 33, 33);
-		g.drawOval(173, 308, 33, 33);
+		g.drawOval(118, 308, 42, 42);
+		g.drawOval(188, 308, 42, 42);
 		
 		g.setColor(Color.WHITE);
-		g.fillOval(137, 310, 31, 31);
-		g.fillOval(175, 310, 31, 31);
+		g.fillOval(120, 310, 40, 40);
+		g.fillOval(190, 310, 40, 40);
 		
 		g.setColor(Color.BLACK);
-		g.drawOval(139, 312, 26, 26);
-		g.drawOval(177, 312, 26, 26);
+		g.drawOval(122, 312, 35, 35);
+		g.drawOval(192, 312, 35, 35);
 		
 		
 		//shoes
